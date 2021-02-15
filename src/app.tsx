@@ -17,6 +17,10 @@ class MainApp extends React.Component {
     return 3;
   }
 
+  something() {
+    return 5;
+  }
+
 }
 
 ReactDOM.render(<MainApp />, document.getElementById("app"));
