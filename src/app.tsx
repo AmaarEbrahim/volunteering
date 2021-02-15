@@ -4,10 +4,10 @@ import ReactDOM from "react-dom";
 import { Form } from "./myForm";
 
 class MainApp extends React.Component {
-  render(): React.ReactNode {
+  render(): React.ReactNode { 
     return (
       <div className="content">
-        <h1>Hello World</h1>
+        <h1>Hello World</h1> //hi
         <Form/>
       </div>
     );
